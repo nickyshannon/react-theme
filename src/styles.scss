@@ -1,0 +1,32 @@
+@import "theme";
+
+html {
+  color: #fff;
+}
+
+.Page {
+  &--brand1 {
+    background-color: theme-color("brand1", "base");
+    border: 1px solid theme-color("brand1", "light");
+  }
+
+  &--brand2 {
+    background-color: theme-color("brand2", "base");
+    border: 1px solid theme-color("brand2", "light");
+  }
+}
+
+.Component {
+  height: 200px;
+  width: 200px;
+
+  &--brand1 {
+    background-color: theme-color("brand1", "dark");
+    border: 1px solid theme-color("brand1", "light");
+  }
+
+  &--brand2 {
+    background-color: theme-color("brand2", "dark");
+    border: 1px solid theme-color("brand2", "light");
+  }
+}
