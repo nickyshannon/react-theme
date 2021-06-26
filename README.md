@@ -1,2 +1,2 @@
-# react-theme
-React theme manager with HOC and context API
+# Theme React Context
+React theme manager using a theme HOC and context API
